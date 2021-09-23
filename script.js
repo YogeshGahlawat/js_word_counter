@@ -5,7 +5,7 @@ count = () => {
     var count=0
 
     for(var i=0; i<total; i++){
-        if(value[i]=='.' || value[i]==',' || value[i]==' ')
+        if(value[i]=='.' || value[i]==',' || value[i]==' ' || value[i]=="\n")
             count+=1
     }
 
